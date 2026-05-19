@@ -18,7 +18,9 @@ conda activate rlsfmode
    python run train.py --task_type pose --data_dir #binding pose
    python run train.py --task_type affinity --data_dir #binding affinity
 7. Test
-   you can prepare all data needed or use the example (data and .pth) we provided to start a quick test
+   you can prepare all data needed or use the example (data) and pretrained weights (.pth) we provided to start a quick test
+   [https://huggingface.co/curryxia/RLSFmode_pretrain/resolve/main/pose_model.pth]
+   [(https://huggingface.co/curryxia/RLSFmode_pretrain/resolve/main/affinity_model.pth)]
    python run test_pose.py #binding pose
    python run test_affinity.py #binding affinity
 
